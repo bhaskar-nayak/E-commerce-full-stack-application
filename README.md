@@ -51,9 +51,6 @@
 - "I further enriched the user experience by implementing a cart feature, providing detailed information on prices, names, and quantities of selected products. Leveraging ReactJS and Spring Boot, this addition enhances the overall functionality, ensuring users have a clear overview and management of their selected items in the shopping cart."
 
 ![cart product](https://github.com/bhaskar-nayak/E-commerce-full-stack-application/blob/master/Screenshot%20(13).png?raw=true)
-![product](https://www.superkicks.in/cdn/shop/files/1_d3cf2046-7f51-4d63-a034-b2b166bad5e4.jpg?v=1706854582&width=600)
-
-
 
 
 
