@@ -232,7 +232,7 @@ useEffect(() => {
           <div className="col-sm-8 prdctimg">
           {filteredProduct.thumbnailImgs?.map(imgSrc => {
     const thumbnailUrl = `${baseURL}/thumbnails/${imgSrc}`;
-    console.log("Thumbnail URL:", thumbnailUrl);
+    // console.log("Thumbnail URL:", thumbnailUrl);
 
     return (
         <img className="img-fluid" key={productId.id} src={thumbnailUrl} alt="product image" />

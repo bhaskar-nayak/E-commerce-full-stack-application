@@ -169,7 +169,7 @@ const[products, setProducts] = useState([]);
          <div className="container-fluid products-Lists">
          {filteredProducts.map(product => {
     const imageUrl = `${baseURL}${product.imgSrc}`;  // Remove the extra "/images/" here
-    console.log("Image URL:", imageUrl);
+    // console.log("Image URL:", imageUrl);
 
     return (
         <div className="card cards border-0 mx-4 my-4" key={product.id} style={{ width: 450 }}>

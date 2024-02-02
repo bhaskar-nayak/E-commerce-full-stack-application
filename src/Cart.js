@@ -20,7 +20,7 @@ function Cart({ cart, removeFromCart, incrementQuantity, decrementQuantity, getT
             <div key={item.id} className="mb-3 my-4">
               <img src={`http://localhost:9091/images/${item.imgSrc}`} alt={item.name} style={{ width: '120px', marginRight: '10px' }} />
               src={item.imgSrc} */}
-              {item.name} - ₹{item.price} - Quantity: {item.quantity}
+              {/* {item.name} - ₹{item.price} - Quantity: {item.quantity} */}
               <button className="btn btn-light mx-2" onClick={() => incrementQuantity(item.id)}>
                 +
               </button>
